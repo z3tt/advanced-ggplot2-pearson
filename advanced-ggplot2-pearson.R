@@ -1,7 +1,7 @@
 ################################################################################
 #                                                                              #
 #             "Hands-On Dat Visualization with ggplot2: Concepts"              #
-#          Pearson Live Training Session for O'Reilly, June 13 2023            #
+#          Pearson Live Training Session for O'Reilly, July 14 2023            #
 #                                                                              #
 #                             Dr Cédric Scherer                                #
 #                             cedricscherer.com                                #
