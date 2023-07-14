@@ -37,7 +37,7 @@
 ##  - gganimate
 
 ## Please install the missing packages by running the following:
-pcks <- c("ggplot2", "dplyr", "forcats", "stringr", "scales", "systemfonts", "gapminder", 
+pkgs <- c("ggplot2", "dplyr", "forcats", "stringr", "scales", "systemfonts", "gapminder", 
           "rcartocolor", "prismatic", "ggrepel", "ggforce", "ggtext",  "patchwork", 
           "magick", "ggdist", "ggridges", "plotly", "ggiraph", "echarts4r", "gganimate")
 unavailable <- setdiff(pkgs, rownames(installed.packages()))
