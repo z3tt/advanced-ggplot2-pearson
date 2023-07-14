@@ -19,7 +19,7 @@
 
 This is the second training of a two-part workshop series "Create Data Visualizations in R Using the Grammar of Graphics” in collaboration with Pearson and O'Reilly.
 
-* Part 1: **["Hands–On Data Visualization with {ggplot2}: Concepts"](https://www.oreilly.com/live-events/hands-on-data-visualization-with-ggplot2-concepts/0636920089879/)** [(Repo)](https://github.com/z3tt/fundamentals-ggplot2-pearson/)
+* Part 1: **["Hands–On Data Visualization with {ggplot2}: Concepts"](https://www.oreilly.com/live-events/hands-on-data-visualization-with-ggplot2-concepts/0636920089879/)** → [Repo](https://github.com/z3tt/fundamentals-ggplot2-pearson/)
 * Part 2: **["Hands-On Guide to Advanced Data Visualization with ggplot2: Custom Design"](https://www.oreilly.com/live-events/hands-on-guide-to-advanced-data-visualization-with-ggplot2-custom-design/0636920092434/)** (this course)
 
 <br>
