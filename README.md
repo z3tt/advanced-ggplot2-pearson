@@ -1,5 +1,5 @@
 <h1 style="font-weight:normal" align="center">
-  &nbsp;"Hands-On Guide to Advanced Data Visualization with ggplot2: Custom Design"<br>Material for the Pearson Live Training Session for O’Reilly&nbsp;
+  Material for the Pearson Live Training Session for O’Reilly<br>"Hands-On Guide to Advanced Data Visualization with ggplot2: Custom Design"
 </h1>
 
 <div align="center">
