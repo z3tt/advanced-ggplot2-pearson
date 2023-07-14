@@ -79,7 +79,7 @@ We are using a non-default fonts in this session. If you want to run all code "a
 - Open Sans
 - Hepta Slab
 
-You find the files in the ./fonts folder. Install them by double-clicking.
+You find the files in the `fonts` folder. Install them by double-clicking.
 
 If you don't want to or can't install the fonts, it is still possible to run the code. Just make sure to replace the font families in the code with one that is installed on your system--or remove the respective rows (more information during the session).
 
