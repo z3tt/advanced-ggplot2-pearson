@@ -1,6 +1,7 @@
 ################################################################################
 #                                                                              #
-#             "Hands-On Dat Visualization with ggplot2: Concepts"              #
+#         "Hands-On Guide to Advanced Data Visualization with ggplot2:         #
+#                               Custom Design"                                 #
 #          Pearson Live Training Session for O'Reilly, July 14 2023            #
 #                                                                              #
 #                             Dr Cédric Scherer                                #
