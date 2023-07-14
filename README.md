@@ -37,7 +37,6 @@ To run any of the materials locally on your own machine, you will need to instal
 - A recent version of **R** (download from [here](https://cloud.r-project.org/)) 
 - A recent version of **RStudio** (download from [here](https://rstudio.com/products/rstudio/download/#download))
 - A suite of **R packages**:
-
   - ggplot2
   - dplyr
   - forcats
