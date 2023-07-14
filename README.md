@@ -1,5 +1,5 @@
 <h1 style="font-weight:normal" align="center">
-  &nbsp;"Hands-On Guide to Advanced Data Visualization with ggplot2: Custom Design"<br>Material for the Pearson Live Training Session for O’Reilly&nbsp;
+  Material for the Pearson Live Training Session for O’Reilly<br>"Hands-On Guide to Advanced Data Visualization with ggplot2: Custom Design"
 </h1>
 
 <div align="center">
@@ -19,7 +19,7 @@
 
 This is the second training of a two-part workshop series "Create Data Visualizations in R Using the Grammar of Graphics” in collaboration with Pearson and O'Reilly.
 
-* Part 1: **["Hands–On Data Visualization with {ggplot2}: Concepts"](https://www.oreilly.com/live-events/hands-on-data-visualization-with-ggplot2-concepts/0636920089879/)**
+* Part 1: **["Hands–On Data Visualization with ggplot2: Concepts"](https://www.oreilly.com/live-events/hands-on-data-visualization-with-ggplot2-concepts/0636920089879/)** → [Repo](https://github.com/z3tt/fundamentals-ggplot2-pearson/)
 * Part 2: **["Hands-On Guide to Advanced Data Visualization with ggplot2: Custom Design"](https://www.oreilly.com/live-events/hands-on-guide-to-advanced-data-visualization-with-ggplot2-custom-design/0636920092434/)** (this course)
 
 <br>
@@ -37,31 +37,33 @@ To run any of the materials locally on your own machine, you will need to instal
 - A recent version of **R** (download from [here](https://cloud.r-project.org/)) 
 - A recent version of **RStudio** (download from [here](https://rstudio.com/products/rstudio/download/#download))
 - A suite of **R packages**:
-      - ggplot2
-      - dplyr
-      - forcats
-      - stringr
-      - scales
-      - systemfonts
-      - gapminder
-      - rcartocolor
-      - prismatic
-      - ggrepel
-      - ggforce
-      - ggtext
-      - patchwork
-      - magick
-      - ggdist
-      - ggridges
-      - plotly
-      - ggiraph
-      - echarts4r
-      - gganimate
+  - ggplot2
+  - dplyr
+  - forcats
+  - stringr
+  - scales
+  - systemfonts
+  - gapminder
+  - rcartocolor
+  - prismatic
+  - ggrepel
+  - ggforce
+  - ggtext
+  - patchwork
+  - magick
+  - ggdist
+  - ggridges
+  - plotly
+  - ggiraph
+  - echarts4r
+  - gganimate
 
 You can install all required R packages at once by running the following code in the R command line:
 
 ```{r install, eval=FALSE, echo=TRUE}
-pkgs <- ("ggplot2","dplyr", "forcats", "stringr", "scales", "systemfonts", "gapminder", "rcartocolor", "prismatic", "ggrepel", "ggforce", "ggtext",  "patchwork", "magick", "ggdist", "ggridges", "plotly", "ggiraph", "echarts4r", "gganimate")
+pkgs <- ("ggplot2","dplyr", "forcats", "stringr", "scales", "systemfonts", "gapminder",
+         "rcartocolor", "prismatic", "ggrepel", "ggforce", "ggtext",  "patchwork", "magick",
+         "ggdist", "ggridges", "plotly", "ggiraph", "echarts4r", "gganimate")
 unavailable <- setdiff(pkgs, rownames(installed.packages()))
 install.packages(unavailable)
 ```
@@ -70,7 +72,13 @@ To run the code, open up Rstudio. Copy–paste the code in the **console pane** 
 
 ### Fonts
 
-We are using a non-default fonts in this session. If you want to run all code "as it is", please install thethe following typefaces which are available for free. You find the files in the ./fonts folder. Install them by double-clicking.
+We are using a non-default fonts in this session. If you want to run all code "as it is", please install the following typefaces which are available for free:
+
+- Roboto Condensed
+- Open Sans
+- Hepta Slab
+
+You find the files in the `fonts` folder. Install them by double-clicking.
 
 If you don't want to or can't install the fonts, it is still possible to run the code. Just make sure to replace the font families in the code with one that is installed on your system--or remove the respective rows (more information during the session).
 
@@ -84,4 +92,6 @@ If you want to save your visualization to PDF, please make sure that [XQuartz](h
 
 **Double-click on the `advanced-ggplot2-pearson.Rproj` file** which opens up Rstudio with the working directory set to the same folder (i.e. the directory where the Rproj file is placed). 
 
-Now, you can open any script from the files pane (by default in the lower right). To follow the training, **open `advanced-ggplot2-pearson.R`**.
+Now, you can open any script from the files pane (by default in the lower right). 
+
+To follow the training, **open the script `advanced-ggplot2-pearson.R`**.
