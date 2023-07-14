@@ -93,4 +93,6 @@ If you want to save your visualization to PDF, please make sure that [XQuartz](h
 
 **Double-click on the `advanced-ggplot2-pearson.Rproj` file** which opens up Rstudio with the working directory set to the same folder (i.e. the directory where the Rproj file is placed). 
 
-Now, you can open any script from the files pane (by default in the lower right). To follow the training, **open `advanced-ggplot2-pearson.R`**.
+Now, you can open any script from the files pane (by default in the lower right). 
+
+To follow the training, **open the script `advanced-ggplot2-pearson.R`**.
